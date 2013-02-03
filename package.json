@@ -1,7 +1,6 @@
 { 
   "name": "websocket1", 
   "version": "0.0.1", 
-  "scripts":{"start":"node ws.js"},
   "dependencies": { 
     "express": "2.5.0" 
   } 
