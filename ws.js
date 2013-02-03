@@ -1,3 +1,10 @@
+//HTTP part
+var server = require('http').createServer(function(req, res){
+  res.writeHead(200,{ 'Content-Type': 'text/html' });
+  res.end('<h1>Try the same on socket!</h1>');
+});
+server.listen(8080);
+/*
 //some servers may require port 8080
 var server = require('ws').createServer({port:8080});
 server.on('connection', function(conn) {
@@ -9,3 +16,4 @@ server.on('connection', function(conn) {
     conn.send(results);
   });
 });
+*/
