@@ -1,6 +1,6 @@
 {
- "name":"MyApp1",
- "scripts":{"start":"node ws.js"},
+ "name":"websocket1",
+ "scripts":{"start":"node ./ws.js"},
  "version":"0.0.0-120",
  "engines":{"node":"0.8.x"},
  "dependencies":{"ws":"*"}
