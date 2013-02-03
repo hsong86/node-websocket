@@ -1,6 +1,6 @@
 var express = require(‘express’); 
 var app = express.createServer(); 
-var port = process.env.PORT || 6000;
+var port = process.env.PORT;
 
 app.get(‘/’, function(request, response) { 
   response.send(‘Hello Engine Yard Cloud!’);
