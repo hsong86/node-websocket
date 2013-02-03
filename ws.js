@@ -1,3 +1,4 @@
+/*
 var express = require(‘express’); 
 var app = express.createServer(); 
 var port = process.env.PORT;
@@ -8,7 +9,7 @@ app.get(‘/’, function(request, response) {
 
 app.listen(port);
 
-/*
+
 //HTTP part
 var server = require('http').createServer(function(req, res){
   res.writeHead(200,{ 'Content-Type': 'text/html' });
