@@ -1,5 +1,5 @@
 { 
-  "name": "node-hello-world", 
+  "name": "websocket1", 
   "version": "0.0.1", 
   "dependencies": { 
     "express": "2.5.0" 
